@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.flex-container{
+    display: flex;
+}
+
+nav{
+    width: 10em;
+    flex-basis: 22%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav ul li{
+    padding: .72em;
+}
+
+
+/* Usiaro Principal */
+.usuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foto-principal img{
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.datos-usuario p{
+    font-stretch: expanded;
+    margin: 0;
+    padding: 0 .5rem;
+}
+.np{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.status{
+    color:#828485;
+    font-size: .7rem;
+    font-weight: 400;
+}
+.item-conexiones{
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+
+}
+.item-conexiones a{
+    text-decoration: none;
+    color:#828485;
+}
+/* Boton nuevo chat*/
+.nuevo-chat{
+    display: flex;
+    padding: 2.2rem;
+    justify-content: center;
+}
+
+/* Nuevo Chat */
+button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1rem 4rem;
+    border: none;
+    background-color: #a491d2;
+    list-style: none;
+    font-size: 1.3rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Contactos  */
+.contactos{
+    display: flex;
+    padding: 0 1.5rem;
+    justify-content: flex-start;
+    align-content: center;
+}
+.foto img{
+    width: 4rem;
+    border-radius: 50%;
+}
+.detalle-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.detalle-contacto p{
+    font-stretch: expanded;
+    margin: 0;
+    padding: 0 1rem;
+}
+.nc{
+    font-size: 1.3rem;
+    font-weight: 460;
+}
+.mensaje{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#444749;
+}
+
+/* Contexto CHAT */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    flex-grow: 9;
+}
+main img{
+    width: 300px;
+    border-radius: 20px;
+}
+.leyenda-chat{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.leyenda-chat h2{
+    margin: 0;
+    margin-top: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-stretch: extra-condensed;
+}
+.leyenda-chat p{
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 350;
+}
+.leyenda-chat span{
+    font-weight: 650;
+}
+
